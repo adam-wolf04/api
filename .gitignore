@@ -1,0 +1,23 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+rates.db
+
+# Node.js
+node_modules/
+
+# Env files (keep .env only if you *really* want to share it)
+#.env.local
+#.env.development.local
+#.env.test.local
+#.env.production
+#.env.*
+#!.env        # include only the main .env if you insist
+
+# Build output
+/build
+
+# System
+.DS_Store
+Thumbs.db
